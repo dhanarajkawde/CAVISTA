@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		652DEA9C24A69552006EEE04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652DEA9B24A69552006EEE04 /* AppDelegate.swift */; };
+		652DEA9E24A69552006EEE04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652DEA9D24A69552006EEE04 /* SceneDelegate.swift */; };
+		652DEAA024A69552006EEE04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652DEA9F24A69552006EEE04 /* ViewController.swift */; };
+		652DEAA324A69552006EEE04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652DEAA124A69552006EEE04 /* Main.storyboard */; };
+		652DEAA624A69552006EEE04 /* CAVISTA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 652DEAA424A69552006EEE04 /* CAVISTA.xcdatamodeld */; };
+		652DEAA824A69554006EEE04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652DEAA724A69554006EEE04 /* Assets.xcassets */; };
+		652DEAAB24A69554006EEE04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652DEAA924A69554006EEE04 /* LaunchScreen.storyboard */; };
+		652DEAB624A69554006EEE04 /* CAVISTATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652DEAB524A69554006EEE04 /* CAVISTATests.swift */; };
+		652DEAC124A69554006EEE04 /* CAVISTAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652DEAC024A69554006EEE04 /* CAVISTAUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		652DEAB224A69554006EEE04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 652DEA9024A69552006EEE04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 652DEA9724A69552006EEE04;
+			remoteInfo = CAVISTA;
+		};
+		652DEABD24A69554006EEE04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 652DEA9024A69552006EEE04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 652DEA9724A69552006EEE04;
+			remoteInfo = CAVISTA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		652DEA9824A69552006EEE04 /* CAVISTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAVISTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		652DEA9B24A69552006EEE04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		652DEA9D24A69552006EEE04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		652DEA9F24A69552006EEE04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		652DEAA224A69552006EEE04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		652DEAA524A69552006EEE04 /* CAVISTA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CAVISTA.xcdatamodel; sourceTree = "<group>"; };
+		652DEAA724A69554006EEE04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		652DEAAA24A69554006EEE04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		652DEAAC24A69554006EEE04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		652DEAB124A69554006EEE04 /* CAVISTATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAVISTATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		652DEAB524A69554006EEE04 /* CAVISTATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAVISTATests.swift; sourceTree = "<group>"; };
+		652DEAB724A69554006EEE04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		652DEABC24A69554006EEE04 /* CAVISTAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAVISTAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		652DEAC024A69554006EEE04 /* CAVISTAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAVISTAUITests.swift; sourceTree = "<group>"; };
+		652DEAC224A69554006EEE04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		652DEA9524A69552006EEE04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		652DEAAE24A69554006EEE04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		652DEAB924A69554006EEE04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		652DEA8F24A69552006EEE04 = {
+			isa = PBXGroup;
+			children = (
+				652DEA9A24A69552006EEE04 /* CAVISTA */,
+				652DEAB424A69554006EEE04 /* CAVISTATests */,
+				652DEABF24A69554006EEE04 /* CAVISTAUITests */,
+				652DEA9924A69552006EEE04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		652DEA9924A69552006EEE04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				652DEA9824A69552006EEE04 /* CAVISTA.app */,
+				652DEAB124A69554006EEE04 /* CAVISTATests.xctest */,
+				652DEABC24A69554006EEE04 /* CAVISTAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		652DEA9A24A69552006EEE04 /* CAVISTA */ = {
+			isa = PBXGroup;
+			children = (
+				652DEA9B24A69552006EEE04 /* AppDelegate.swift */,
+				652DEA9D24A69552006EEE04 /* SceneDelegate.swift */,
+				652DEA9F24A69552006EEE04 /* ViewController.swift */,
+				652DEAA124A69552006EEE04 /* Main.storyboard */,
+				652DEAA724A69554006EEE04 /* Assets.xcassets */,
+				652DEAA924A69554006EEE04 /* LaunchScreen.storyboard */,
+				652DEAAC24A69554006EEE04 /* Info.plist */,
+				652DEAA424A69552006EEE04 /* CAVISTA.xcdatamodeld */,
+			);
+			path = CAVISTA;
+			sourceTree = "<group>";
+		};
+		652DEAB424A69554006EEE04 /* CAVISTATests */ = {
+			isa = PBXGroup;
+			children = (
+				652DEAB524A69554006EEE04 /* CAVISTATests.swift */,
+				652DEAB724A69554006EEE04 /* Info.plist */,
+			);
+			path = CAVISTATests;
+			sourceTree = "<group>";
+		};
+		652DEABF24A69554006EEE04 /* CAVISTAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				652DEAC024A69554006EEE04 /* CAVISTAUITests.swift */,
+				652DEAC224A69554006EEE04 /* Info.plist */,
+			);
+			path = CAVISTAUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		652DEA9724A69552006EEE04 /* CAVISTA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 652DEAC524A69554006EEE04 /* Build configuration list for PBXNativeTarget "CAVISTA" */;
+			buildPhases = (
+				652DEA9424A69552006EEE04 /* Sources */,
+				652DEA9524A69552006EEE04 /* Frameworks */,
+				652DEA9624A69552006EEE04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAVISTA;
+			productName = CAVISTA;
+			productReference = 652DEA9824A69552006EEE04 /* CAVISTA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		652DEAB024A69554006EEE04 /* CAVISTATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 652DEAC824A69554006EEE04 /* Build configuration list for PBXNativeTarget "CAVISTATests" */;
+			buildPhases = (
+				652DEAAD24A69554006EEE04 /* Sources */,
+				652DEAAE24A69554006EEE04 /* Frameworks */,
+				652DEAAF24A69554006EEE04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				652DEAB324A69554006EEE04 /* PBXTargetDependency */,
+			);
+			name = CAVISTATests;
+			productName = CAVISTATests;
+			productReference = 652DEAB124A69554006EEE04 /* CAVISTATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		652DEABB24A69554006EEE04 /* CAVISTAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 652DEACB24A69554006EEE04 /* Build configuration list for PBXNativeTarget "CAVISTAUITests" */;
+			buildPhases = (
+				652DEAB824A69554006EEE04 /* Sources */,
+				652DEAB924A69554006EEE04 /* Frameworks */,
+				652DEABA24A69554006EEE04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				652DEABE24A69554006EEE04 /* PBXTargetDependency */,
+			);
+			name = CAVISTAUITests;
+			productName = CAVISTAUITests;
+			productReference = 652DEABC24A69554006EEE04 /* CAVISTAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		652DEA9024A69552006EEE04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = CAVISTA;
+				TargetAttributes = {
+					652DEA9724A69552006EEE04 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					652DEAB024A69554006EEE04 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 652DEA9724A69552006EEE04;
+					};
+					652DEABB24A69554006EEE04 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 652DEA9724A69552006EEE04;
+					};
+				};
+			};
+			buildConfigurationList = 652DEA9324A69552006EEE04 /* Build configuration list for PBXProject "CAVISTA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 652DEA8F24A69552006EEE04;
+			productRefGroup = 652DEA9924A69552006EEE04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				652DEA9724A69552006EEE04 /* CAVISTA */,
+				652DEAB024A69554006EEE04 /* CAVISTATests */,
+				652DEABB24A69554006EEE04 /* CAVISTAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		652DEA9624A69552006EEE04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652DEAAB24A69554006EEE04 /* LaunchScreen.storyboard in Resources */,
+				652DEAA824A69554006EEE04 /* Assets.xcassets in Resources */,
+				652DEAA324A69552006EEE04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		652DEAAF24A69554006EEE04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		652DEABA24A69554006EEE04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		652DEA9424A69552006EEE04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652DEAA024A69552006EEE04 /* ViewController.swift in Sources */,
+				652DEA9C24A69552006EEE04 /* AppDelegate.swift in Sources */,
+				652DEA9E24A69552006EEE04 /* SceneDelegate.swift in Sources */,
+				652DEAA624A69552006EEE04 /* CAVISTA.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		652DEAAD24A69554006EEE04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652DEAB624A69554006EEE04 /* CAVISTATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		652DEAB824A69554006EEE04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652DEAC124A69554006EEE04 /* CAVISTAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		652DEAB324A69554006EEE04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 652DEA9724A69552006EEE04 /* CAVISTA */;
+			targetProxy = 652DEAB224A69554006EEE04 /* PBXContainerItemProxy */;
+		};
+		652DEABE24A69554006EEE04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 652DEA9724A69552006EEE04 /* CAVISTA */;
+			targetProxy = 652DEABD24A69554006EEE04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		652DEAA124A69552006EEE04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				652DEAA224A69552006EEE04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		652DEAA924A69554006EEE04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				652DEAAA24A69554006EEE04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		652DEAC324A69554006EEE04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		652DEAC424A69554006EEE04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		652DEAC624A69554006EEE04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27J356AFNZ;
+				INFOPLIST_FILE = CAVISTA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CAVISTA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		652DEAC724A69554006EEE04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27J356AFNZ;
+				INFOPLIST_FILE = CAVISTA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CAVISTA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		652DEAC924A69554006EEE04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27J356AFNZ;
+				INFOPLIST_FILE = CAVISTATests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CAVISTATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAVISTA.app/CAVISTA";
+			};
+			name = Debug;
+		};
+		652DEACA24A69554006EEE04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27J356AFNZ;
+				INFOPLIST_FILE = CAVISTATests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CAVISTATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAVISTA.app/CAVISTA";
+			};
+			name = Release;
+		};
+		652DEACC24A69554006EEE04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27J356AFNZ;
+				INFOPLIST_FILE = CAVISTAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CAVISTAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CAVISTA;
+			};
+			name = Debug;
+		};
+		652DEACD24A69554006EEE04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27J356AFNZ;
+				INFOPLIST_FILE = CAVISTAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CAVISTAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CAVISTA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		652DEA9324A69552006EEE04 /* Build configuration list for PBXProject "CAVISTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652DEAC324A69554006EEE04 /* Debug */,
+				652DEAC424A69554006EEE04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		652DEAC524A69554006EEE04 /* Build configuration list for PBXNativeTarget "CAVISTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652DEAC624A69554006EEE04 /* Debug */,
+				652DEAC724A69554006EEE04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		652DEAC824A69554006EEE04 /* Build configuration list for PBXNativeTarget "CAVISTATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652DEAC924A69554006EEE04 /* Debug */,
+				652DEACA24A69554006EEE04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		652DEACB24A69554006EEE04 /* Build configuration list for PBXNativeTarget "CAVISTAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652DEACC24A69554006EEE04 /* Debug */,
+				652DEACD24A69554006EEE04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		652DEAA424A69552006EEE04 /* CAVISTA.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				652DEAA524A69552006EEE04 /* CAVISTA.xcdatamodel */,
+			);
+			currentVersion = 652DEAA524A69552006EEE04 /* CAVISTA.xcdatamodel */;
+			path = CAVISTA.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 652DEA9024A69552006EEE04 /* Project object */;
+}
