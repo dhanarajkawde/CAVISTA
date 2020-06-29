@@ -3,19 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2794DE19508DB2ABCEDCB4C0 /* Pods_CAVISTA_CAVISTAUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4AFD43D1DACB66A2335EF3D /* Pods_CAVISTA_CAVISTAUITests.framework */; };
+		3FFF51DD111A3FBFA49D177C /* Pods_CAVISTATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7443088A4F3FB4E79F3D50 /* Pods_CAVISTATests.framework */; };
 		652DEA9C24A69552006EEE04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652DEA9B24A69552006EEE04 /* AppDelegate.swift */; };
-		652DEA9E24A69552006EEE04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652DEA9D24A69552006EEE04 /* SceneDelegate.swift */; };
-		652DEAA024A69552006EEE04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652DEA9F24A69552006EEE04 /* ViewController.swift */; };
 		652DEAA324A69552006EEE04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652DEAA124A69552006EEE04 /* Main.storyboard */; };
-		652DEAA624A69552006EEE04 /* CAVISTA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 652DEAA424A69552006EEE04 /* CAVISTA.xcdatamodeld */; };
 		652DEAA824A69554006EEE04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652DEAA724A69554006EEE04 /* Assets.xcassets */; };
 		652DEAAB24A69554006EEE04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652DEAA924A69554006EEE04 /* LaunchScreen.storyboard */; };
 		652DEAB624A69554006EEE04 /* CAVISTATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652DEAB524A69554006EEE04 /* CAVISTATests.swift */; };
 		652DEAC124A69554006EEE04 /* CAVISTAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652DEAC024A69554006EEE04 /* CAVISTAUITests.swift */; };
+		652DEAD924A699B9006EEE04 /* iPhone.plist in Resources */ = {isa = PBXBuildFile; fileRef = 652DEAD624A699B9006EEE04 /* iPhone.plist */; };
+		652DEADA24A699B9006EEE04 /* iPhone6.plist in Resources */ = {isa = PBXBuildFile; fileRef = 652DEAD724A699B9006EEE04 /* iPhone6.plist */; };
+		652DEADB24A699B9006EEE04 /* iPhonePlus.plist in Resources */ = {isa = PBXBuildFile; fileRef = 652DEAD824A699B9006EEE04 /* iPhonePlus.plist */; };
+		652DEADD24A69A17006EEE04 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652DEADC24A69A17006EEE04 /* BaseViewController.swift */; };
+		652DEADF24A69B0B006EEE04 /* DynamicFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652DEADE24A69B0B006EEE04 /* DynamicFont.swift */; };
+		652DEAE124A69C8B006EEE04 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652DEAE024A69C8B006EEE04 /* String+Extension.swift */; };
+		65CA61A924A88D010082362B /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CA61A824A88D010082362B /* ListViewController.swift */; };
+		65CA61AB24A88D120082362B /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CA61AA24A88D120082362B /* ListViewModel.swift */; };
+		65CA61AD24A88D2A0082362B /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CA61AC24A88D2A0082362B /* List.swift */; };
+		65CA61AF24A88D580082362B /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CA61AE24A88D580082362B /* InfoViewController.swift */; };
+		65CA61B124A88DA90082362B /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CA61B024A88DA90082362B /* UIDevice+Extension.swift */; };
+		65CA61B324A8A2BF0082362B /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CA61B224A8A2BF0082362B /* ListTableViewCell.swift */; };
+		65CA61B524A8ADEC0082362B /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CA61B424A8ADEC0082362B /* APIService.swift */; };
+		65CA61B724A8C8B40082362B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CA61B624A8C8B40082362B /* UIView+Extension.swift */; };
+		65CA61B924A8E4440082362B /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CA61B824A8E4440082362B /* UILabel+Extension.swift */; };
+		65CA61BB24A8E4550082362B /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CA61BA24A8E4550082362B /* UITextView+Extension.swift */; };
+		65CA61BD24A8E61B0082362B /* GlobalColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CA61BC24A8E61B0082362B /* GlobalColors.swift */; };
+		65CA61BF24A8E8080082362B /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CA61BE24A8E8080082362B /* UIButton+Extension.swift */; };
+		65CA61C124A8F8DC0082362B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CA61C024A8F8DC0082362B /* Constants.swift */; };
+		65CA61C324A8FDF00082362B /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CA61C224A8FDF00082362B /* RealmHelper.swift */; };
+		65CA61C524A983DC0082362B /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CA61C424A983DC0082362B /* Reachability.swift */; };
+		9C5420643A3F787DAD34F0B4 /* Pods_CAVISTA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47103AD2E241DD76424020D7 /* Pods_CAVISTA.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +57,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39C77CA689F13FD9195512C1 /* Pods-CAVISTATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAVISTATests.release.xcconfig"; path = "Target Support Files/Pods-CAVISTATests/Pods-CAVISTATests.release.xcconfig"; sourceTree = "<group>"; };
+		47103AD2E241DD76424020D7 /* Pods_CAVISTA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CAVISTA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7443088A4F3FB4E79F3D50 /* Pods_CAVISTATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CAVISTATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5667DE9C70CEAC6CC42C6CEC /* Pods-CAVISTA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAVISTA.release.xcconfig"; path = "Target Support Files/Pods-CAVISTA/Pods-CAVISTA.release.xcconfig"; sourceTree = "<group>"; };
+		5A1AB507C20358CDC48DACC0 /* Pods-CAVISTA-CAVISTAUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAVISTA-CAVISTAUITests.release.xcconfig"; path = "Target Support Files/Pods-CAVISTA-CAVISTAUITests/Pods-CAVISTA-CAVISTAUITests.release.xcconfig"; sourceTree = "<group>"; };
 		652DEA9824A69552006EEE04 /* CAVISTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAVISTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		652DEA9B24A69552006EEE04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		652DEA9D24A69552006EEE04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		652DEA9F24A69552006EEE04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		652DEAA224A69552006EEE04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		652DEAA524A69552006EEE04 /* CAVISTA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CAVISTA.xcdatamodel; sourceTree = "<group>"; };
 		652DEAA724A69554006EEE04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		652DEAAA24A69554006EEE04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		652DEAAC24A69554006EEE04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +74,31 @@
 		652DEABC24A69554006EEE04 /* CAVISTAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAVISTAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		652DEAC024A69554006EEE04 /* CAVISTAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAVISTAUITests.swift; sourceTree = "<group>"; };
 		652DEAC224A69554006EEE04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		652DEAD624A699B9006EEE04 /* iPhone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iPhone.plist; sourceTree = "<group>"; };
+		652DEAD724A699B9006EEE04 /* iPhone6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iPhone6.plist; sourceTree = "<group>"; };
+		652DEAD824A699B9006EEE04 /* iPhonePlus.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iPhonePlus.plist; sourceTree = "<group>"; };
+		652DEADC24A69A17006EEE04 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		652DEADE24A69B0B006EEE04 /* DynamicFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFont.swift; sourceTree = "<group>"; };
+		652DEAE024A69C8B006EEE04 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		65CA61A824A88D010082362B /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		65CA61AA24A88D120082362B /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		65CA61AC24A88D2A0082362B /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		65CA61AE24A88D580082362B /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		65CA61B024A88DA90082362B /* UIDevice+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
+		65CA61B224A8A2BF0082362B /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		65CA61B424A8ADEC0082362B /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		65CA61B624A8C8B40082362B /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		65CA61B824A8E4440082362B /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		65CA61BA24A8E4550082362B /* UITextView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Extension.swift"; sourceTree = "<group>"; };
+		65CA61BC24A8E61B0082362B /* GlobalColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalColors.swift; sourceTree = "<group>"; };
+		65CA61BE24A8E8080082362B /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		65CA61C024A8F8DC0082362B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = "../Helper Classes/Constants.swift"; sourceTree = "<group>"; };
+		65CA61C224A8FDF00082362B /* RealmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
+		65CA61C424A983DC0082362B /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		69DF0AF1402960DB1B858C37 /* Pods-CAVISTA-CAVISTAUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAVISTA-CAVISTAUITests.debug.xcconfig"; path = "Target Support Files/Pods-CAVISTA-CAVISTAUITests/Pods-CAVISTA-CAVISTAUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B1A794512DDA9D04508BF6C /* Pods-CAVISTA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAVISTA.debug.xcconfig"; path = "Target Support Files/Pods-CAVISTA/Pods-CAVISTA.debug.xcconfig"; sourceTree = "<group>"; };
+		A325A1BF302EC3035CC62FEB /* Pods-CAVISTATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAVISTATests.debug.xcconfig"; path = "Target Support Files/Pods-CAVISTATests/Pods-CAVISTATests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4AFD43D1DACB66A2335EF3D /* Pods_CAVISTA_CAVISTAUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CAVISTA_CAVISTAUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C5420643A3F787DAD34F0B4 /* Pods_CAVISTA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FFF51DD111A3FBFA49D177C /* Pods_CAVISTATests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +122,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2794DE19508DB2ABCEDCB4C0 /* Pods_CAVISTA_CAVISTAUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5097C1234F9BBF2AB682BAD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47103AD2E241DD76424020D7 /* Pods_CAVISTA.framework */,
+				E4AFD43D1DACB66A2335EF3D /* Pods_CAVISTA_CAVISTAUITests.framework */,
+				4E7443088A4F3FB4E79F3D50 /* Pods_CAVISTATests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		652DEA8F24A69552006EEE04 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +146,8 @@
 				652DEAB424A69554006EEE04 /* CAVISTATests */,
 				652DEABF24A69554006EEE04 /* CAVISTAUITests */,
 				652DEA9924A69552006EEE04 /* Products */,
+				F1E5AAE0F14ABB8CA1DF472A /* Pods */,
+				5097C1234F9BBF2AB682BAD2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +164,16 @@
 		652DEA9A24A69552006EEE04 /* CAVISTA */ = {
 			isa = PBXGroup;
 			children = (
-				652DEA9B24A69552006EEE04 /* AppDelegate.swift */,
-				652DEA9D24A69552006EEE04 /* SceneDelegate.swift */,
-				652DEA9F24A69552006EEE04 /* ViewController.swift */,
-				652DEAA124A69552006EEE04 /* Main.storyboard */,
-				652DEAA724A69554006EEE04 /* Assets.xcassets */,
-				652DEAA924A69554006EEE04 /* LaunchScreen.storyboard */,
-				652DEAAC24A69554006EEE04 /* Info.plist */,
-				652DEAA424A69552006EEE04 /* CAVISTA.xcdatamodeld */,
+				652DEACE24A6961E006EEE04 /* Default */,
+				652DEAD524A69978006EEE04 /* Font */,
+				652DEAD424A69941006EEE04 /* Constants */,
+				65CA61A624A886D60082362B /* APIService */,
+				652DEAD324A69880006EEE04 /* Helper Classes */,
+				652DEAD224A6966D006EEE04 /* Database */,
+				652DEAD124A69641006EEE04 /* Model */,
+				652DEAD024A6963D006EEE04 /* View */,
+				65CA61A724A8876B0082362B /* ViewModel */,
+				652DEACF24A69638006EEE04 /* Controller */,
 			);
 			path = CAVISTA;
 			sourceTree = "<group>";
@@ -131,6 +196,115 @@
 			path = CAVISTAUITests;
 			sourceTree = "<group>";
 		};
+		652DEACE24A6961E006EEE04 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				652DEA9B24A69552006EEE04 /* AppDelegate.swift */,
+				652DEAA724A69554006EEE04 /* Assets.xcassets */,
+				652DEAA124A69552006EEE04 /* Main.storyboard */,
+				652DEAA924A69554006EEE04 /* LaunchScreen.storyboard */,
+				652DEAAC24A69554006EEE04 /* Info.plist */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		652DEACF24A69638006EEE04 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				65CA61A824A88D010082362B /* ListViewController.swift */,
+				65CA61AE24A88D580082362B /* InfoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		652DEAD024A6963D006EEE04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				65CA61B224A8A2BF0082362B /* ListTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		652DEAD124A69641006EEE04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65CA61AC24A88D2A0082362B /* List.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		652DEAD224A6966D006EEE04 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				65CA61C224A8FDF00082362B /* RealmHelper.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		652DEAD324A69880006EEE04 /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				65CA61C424A983DC0082362B /* Reachability.swift */,
+				652DEADC24A69A17006EEE04 /* BaseViewController.swift */,
+				65CA61BC24A8E61B0082362B /* GlobalColors.swift */,
+				652DEAE024A69C8B006EEE04 /* String+Extension.swift */,
+				65CA61B024A88DA90082362B /* UIDevice+Extension.swift */,
+				65CA61B624A8C8B40082362B /* UIView+Extension.swift */,
+				65CA61B824A8E4440082362B /* UILabel+Extension.swift */,
+				65CA61BA24A8E4550082362B /* UITextView+Extension.swift */,
+				65CA61BE24A8E8080082362B /* UIButton+Extension.swift */,
+			);
+			path = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		652DEAD424A69941006EEE04 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				65CA61C024A8F8DC0082362B /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		652DEAD524A69978006EEE04 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				652DEADE24A69B0B006EEE04 /* DynamicFont.swift */,
+				652DEAD624A699B9006EEE04 /* iPhone.plist */,
+				652DEAD724A699B9006EEE04 /* iPhone6.plist */,
+				652DEAD824A699B9006EEE04 /* iPhonePlus.plist */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		65CA61A624A886D60082362B /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				65CA61B424A8ADEC0082362B /* APIService.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		65CA61A724A8876B0082362B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				65CA61AA24A88D120082362B /* ListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F1E5AAE0F14ABB8CA1DF472A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B1A794512DDA9D04508BF6C /* Pods-CAVISTA.debug.xcconfig */,
+				5667DE9C70CEAC6CC42C6CEC /* Pods-CAVISTA.release.xcconfig */,
+				69DF0AF1402960DB1B858C37 /* Pods-CAVISTA-CAVISTAUITests.debug.xcconfig */,
+				5A1AB507C20358CDC48DACC0 /* Pods-CAVISTA-CAVISTAUITests.release.xcconfig */,
+				A325A1BF302EC3035CC62FEB /* Pods-CAVISTATests.debug.xcconfig */,
+				39C77CA689F13FD9195512C1 /* Pods-CAVISTATests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +312,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 652DEAC524A69554006EEE04 /* Build configuration list for PBXNativeTarget "CAVISTA" */;
 			buildPhases = (
+				D6FB85653BDAB14A57CA70C8 /* [CP] Check Pods Manifest.lock */,
 				652DEA9424A69552006EEE04 /* Sources */,
 				652DEA9524A69552006EEE04 /* Frameworks */,
 				652DEA9624A69552006EEE04 /* Resources */,
+				6B59000303ED32760251099E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +331,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 652DEAC824A69554006EEE04 /* Build configuration list for PBXNativeTarget "CAVISTATests" */;
 			buildPhases = (
+				8ECAFA0E89ADFDDF7DE12B0B /* [CP] Check Pods Manifest.lock */,
 				652DEAAD24A69554006EEE04 /* Sources */,
 				652DEAAE24A69554006EEE04 /* Frameworks */,
 				652DEAAF24A69554006EEE04 /* Resources */,
@@ -173,9 +350,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 652DEACB24A69554006EEE04 /* Build configuration list for PBXNativeTarget "CAVISTAUITests" */;
 			buildPhases = (
+				D3DB4337A7304B245B6C9BA8 /* [CP] Check Pods Manifest.lock */,
 				652DEAB824A69554006EEE04 /* Sources */,
 				652DEAB924A69554006EEE04 /* Frameworks */,
 				652DEABA24A69554006EEE04 /* Resources */,
+				73595722B1E0844CE72E8AAA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,8 +415,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				652DEAAB24A69554006EEE04 /* LaunchScreen.storyboard in Resources */,
+				652DEADB24A699B9006EEE04 /* iPhonePlus.plist in Resources */,
+				652DEAD924A699B9006EEE04 /* iPhone.plist in Resources */,
 				652DEAA824A69554006EEE04 /* Assets.xcassets in Resources */,
 				652DEAA324A69552006EEE04 /* Main.storyboard in Resources */,
+				652DEADA24A699B9006EEE04 /* iPhone6.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,15 +439,133 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6B59000303ED32760251099E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CAVISTA/Pods-CAVISTA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CAVISTA/Pods-CAVISTA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CAVISTA/Pods-CAVISTA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73595722B1E0844CE72E8AAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CAVISTA-CAVISTAUITests/Pods-CAVISTA-CAVISTAUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CAVISTA-CAVISTAUITests/Pods-CAVISTA-CAVISTAUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CAVISTA-CAVISTAUITests/Pods-CAVISTA-CAVISTAUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ECAFA0E89ADFDDF7DE12B0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CAVISTATests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3DB4337A7304B245B6C9BA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CAVISTA-CAVISTAUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6FB85653BDAB14A57CA70C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CAVISTA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		652DEA9424A69552006EEE04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				652DEAA024A69552006EEE04 /* ViewController.swift in Sources */,
+				65CA61BD24A8E61B0082362B /* GlobalColors.swift in Sources */,
+				65CA61B324A8A2BF0082362B /* ListTableViewCell.swift in Sources */,
+				65CA61B724A8C8B40082362B /* UIView+Extension.swift in Sources */,
+				65CA61BF24A8E8080082362B /* UIButton+Extension.swift in Sources */,
+				652DEADF24A69B0B006EEE04 /* DynamicFont.swift in Sources */,
+				65CA61AD24A88D2A0082362B /* List.swift in Sources */,
 				652DEA9C24A69552006EEE04 /* AppDelegate.swift in Sources */,
-				652DEA9E24A69552006EEE04 /* SceneDelegate.swift in Sources */,
-				652DEAA624A69552006EEE04 /* CAVISTA.xcdatamodeld in Sources */,
+				65CA61B124A88DA90082362B /* UIDevice+Extension.swift in Sources */,
+				65CA61A924A88D010082362B /* ListViewController.swift in Sources */,
+				65CA61AF24A88D580082362B /* InfoViewController.swift in Sources */,
+				65CA61BB24A8E4550082362B /* UITextView+Extension.swift in Sources */,
+				65CA61C124A8F8DC0082362B /* Constants.swift in Sources */,
+				65CA61AB24A88D120082362B /* ListViewModel.swift in Sources */,
+				65CA61B924A8E4440082362B /* UILabel+Extension.swift in Sources */,
+				652DEADD24A69A17006EEE04 /* BaseViewController.swift in Sources */,
+				65CA61B524A8ADEC0082362B /* APIService.swift in Sources */,
+				65CA61C324A8FDF00082362B /* RealmHelper.swift in Sources */,
+				65CA61C524A983DC0082362B /* Reachability.swift in Sources */,
+				652DEAE124A69C8B006EEE04 /* String+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,11 +736,13 @@
 		};
 		652DEAC624A69554006EEE04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B1A794512DDA9D04508BF6C /* Pods-CAVISTA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 27J356AFNZ;
-				INFOPLIST_FILE = CAVISTA/Info.plist;
+				INFOPLIST_FILE = CAVISTA/Default/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +756,13 @@
 		};
 		652DEAC724A69554006EEE04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5667DE9C70CEAC6CC42C6CEC /* Pods-CAVISTA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 27J356AFNZ;
-				INFOPLIST_FILE = CAVISTA/Info.plist;
+				INFOPLIST_FILE = CAVISTA/Default/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,6 +776,7 @@
 		};
 		652DEAC924A69554006EEE04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A325A1BF302EC3035CC62FEB /* Pods-CAVISTATests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +799,7 @@
 		};
 		652DEACA24A69554006EEE04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39C77CA689F13FD9195512C1 /* Pods-CAVISTATests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +822,7 @@
 		};
 		652DEACC24A69554006EEE04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69DF0AF1402960DB1B858C37 /* Pods-CAVISTA-CAVISTAUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +843,7 @@
 		};
 		652DEACD24A69554006EEE04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A1AB507C20358CDC48DACC0 /* Pods-CAVISTA-CAVISTAUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -594,19 +902,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		652DEAA424A69552006EEE04 /* CAVISTA.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				652DEAA524A69552006EEE04 /* CAVISTA.xcdatamodel */,
-			);
-			currentVersion = 652DEAA524A69552006EEE04 /* CAVISTA.xcdatamodel */;
-			path = CAVISTA.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 652DEA9024A69552006EEE04 /* Project object */;
 }
