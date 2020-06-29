@@ -43,12 +43,12 @@ class ListViewController: BaseViewController {
         self.setUpUI()
         self.setUpChildUI()
         self.setUpSnapkitConstraint()
-        self.getList()
         self.handleSelectOfDropDown()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         
+        self.getList()
         self.navigationController?.navigationBar.isHidden = true
     }
 }
@@ -266,7 +266,6 @@ extension ListViewController {
             
             self.stopProgress()
             self.tblListViw.reloadData()
-            self.tblListViw.scrollToRow(at: IndexPath(row: 0, section: 0), at: .top, animated: true)
         }
     }
     
@@ -283,7 +282,8 @@ extension ListViewController {
             }
         }
         else {
-            if self.arrRealmTempList.count <= 0 {
+            ///if data nil
+            if self.arrTempList.count <= 0 {
                 
                 self.getList()
                 return
@@ -394,7 +394,6 @@ extension ListViewController {
                         
                         self.stopProgress()
                         self.tblListViw.reloadData()
-                        self.tblListViw.scrollToRow(at: IndexPath(row: 0, section: 0), at: .top, animated: true)
                     }
                 }
             }
